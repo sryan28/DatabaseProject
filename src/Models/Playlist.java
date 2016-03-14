@@ -5,6 +5,8 @@ public class Playlist {
 	private String name;
 	private int cid;
 	
+	public Playlist() { }
+	
 	public Playlist(String name, int cid) {
 		this.name = name;
 		this.cid = cid;

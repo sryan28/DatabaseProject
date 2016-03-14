@@ -15,6 +15,8 @@ public class Song {
 	private Date recordDate;
 	private Date releaseDate;
 	
+	public Song() { }
+	
 	public Song(int mid, String mediaType, int artId, String albumTitle, int trackNum,
 			String title, String genre, int duration, Date recordDate, Date releaseDate) {
 		this.mid = mid;

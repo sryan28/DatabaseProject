@@ -10,6 +10,8 @@ public class Movie {
 	private int price;
 	private int rating;
 	
+	public Movie() { }
+	
 	public Movie(int mid, String mediType, String mName, int releaseYear,
 			String studioName, int price, int rating) {
 		this.mid = mid;

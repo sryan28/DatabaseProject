@@ -5,6 +5,7 @@ public class Artist {
 	private int artId;
 	private String name;
 	
+	public Artist() { }
 	public Artist(int artId, String name) {
 		this.artId = artId;
 		this.name = name;

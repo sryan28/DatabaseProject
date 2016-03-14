@@ -5,6 +5,8 @@ public class Network {
 	private String networkName;
 	private int directDeposit;
 	
+	public Network() { }
+	
 	public Network(String networkName, int directDeposit) {
 		this.networkName = networkName;
 		this.directDeposit = directDeposit;

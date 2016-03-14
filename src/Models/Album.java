@@ -9,6 +9,8 @@ public class Album {
 	private Date releaseDate;
 	private String genre;
 	
+	public Album() { }
+	
 	public Album(int artId, String albumTitle, Date releaseDate, String genre) {
 		this.artId = artId;
 		this.albumTitle = albumTitle;

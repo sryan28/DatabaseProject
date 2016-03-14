@@ -14,6 +14,8 @@ public class Episode {
 	private String descrition;
 	private Date releaseDate;
 	
+	public Episode() { }
+	
 	public Episode(int mid, String mediaType, String tvTitle, int releaseYear, int sid,
 			int epid, String epName, String description, Date releaseDate) {
 		this.mid = mid;

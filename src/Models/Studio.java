@@ -4,6 +4,9 @@ public class Studio {
 	
 	private String studioName;
 	private int directDeposit;
+	
+	public Studio() { }
+	
 	public Studio(String studioName, int directDeposit) {
 		this.studioName = studioName;
 		this.directDeposit = directDeposit;

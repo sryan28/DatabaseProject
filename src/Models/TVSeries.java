@@ -9,6 +9,8 @@ public class TVSeries {
 	private String genre;
 	private int rating;
 	
+	public TVSeries() { }
+	
 	public TVSeries(String tvTitle, int releaseYear, String networkName,
 			int pricePerEp, String genre, int rating) {
 		this.tvTitle = tvTitle;

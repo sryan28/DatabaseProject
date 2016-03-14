@@ -5,6 +5,8 @@ public class Actor {
 	private int actId;
 	private String name;
 	
+	public Actor() { }
+	
 	public Actor(int actId, String name) {
 		this.name = name;
 		this.actId = actId;

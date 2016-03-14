@@ -10,6 +10,8 @@ public class Season {
 	private Date startDate;
 	private Date endDate;
 	
+	public Season() { }
+	
 	public Season(String tvTitle, int releaseYear, int sid, Date startDate,
 			Date endDate) {
 		this.tvTitle = tvTitle;
