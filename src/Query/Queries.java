@@ -4,9 +4,9 @@ import java.sql.*;
 
 /*
  * This class is for opening and closing the database 
- * Use queryDatabse method for more querying
+ * Use queryDatabase method for querying
  * 
- * When using this class make sure you check the return ResultSet is not null!
+ * When using this class make sure you check the returned ResultSet is not null!
  * Remember to close the database after you use it!
  */
 
